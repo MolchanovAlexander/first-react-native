@@ -14,6 +14,12 @@ const Popularjobs = () => {
     
     num_pages:'1',
   })
+  const [selectedJob, setSelectedJob] = useState();
+
+  const handleCardPress = (item) => {
+    router.push(`/job-details/${item.job_id}`);
+    setSelectedJob(item.job_id);
+  };
   //console.log("data log",data);
   return (
     <View style={styles.container}>
@@ -33,7 +39,9 @@ const Popularjobs = () => {
             data={data}
             renderItem={({item}) => (
               <PopularJobCard 
-              item={item}/>
+              item={item}
+              handleCardPress={handleCardPress}
+              />
             )}
             keyExtractor={(item) => item.job_id}
             contentContainerStyle={{ columnGap: SIZES.medium }}
