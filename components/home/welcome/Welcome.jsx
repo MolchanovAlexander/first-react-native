@@ -21,7 +21,9 @@ const Welcome = () => {
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.userName}>Welcome h -{Dimensions.get('window').height} w-{Dimensions.get('window').width} Noob</Text>
+        <Text style={styles.userName}>Welcome Noob
+        {/* h -{Dimensions.get('window').height} w-{Dimensions.get('window').width}  */}
+        </Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
       <View style={styles.searchContainer}>

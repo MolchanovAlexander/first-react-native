@@ -6,7 +6,7 @@ import styles from './specifics.style'
 const Specifics = () => {
   return (
     <View>
-      <Text>Specifics</Text>
+      <Text>Specificsfggggg</Text>
     </View>
   )
 }
