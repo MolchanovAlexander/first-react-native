@@ -5,7 +5,7 @@ import { Stack, useRouter } from "expo-router";
 import { COLORS, icons, images, SIZES } from "../constants";
 import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../components';
 
-
+//npx expo start --tunnel  
 
 const Home = () => {
     const router = useRouter();
