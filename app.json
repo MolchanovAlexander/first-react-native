@@ -32,7 +32,11 @@
     "updates": {
       "url": "https://u.expo.dev/9d326912-37ca-4366-b18f-2be62ee731f5"
     },
-    "android": {},
-    "ios": {}
+    "android": {
+      "package": "com.only_79.firstreactnative"
+    },
+    "ios": {
+      "bundleIdentifier": "pasternak"
+    }
   }
 }
