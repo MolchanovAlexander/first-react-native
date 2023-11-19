@@ -7,7 +7,32 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "first-react-native",
-    "slug": "first-react-native"
+    "name": "API App",
+    "slug": "first-react-native",
+    "version": "1.0.1",
+    "description": "This is description of this app",
+    "orientation": "portrait",
+    "icon": "./assets/icons/idea.png",
+    "splash": {
+      "image": "./assets/images/trees.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9d326912-37ca-4366-b18f-2be62ee731f5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9d326912-37ca-4366-b18f-2be62ee731f5"
+    },
+    "android": {},
+    "ios": {}
   }
 }
