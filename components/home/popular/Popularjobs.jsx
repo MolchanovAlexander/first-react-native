@@ -11,7 +11,6 @@ const Popularjobs = () => {
   const router = useRouter();
   const { data, isLoading, error} = useFetch('search', {
     query:"Java developer",
-    
     num_pages:'1',
   })
   const [selectedJob, setSelectedJob] = useState();
@@ -39,6 +38,7 @@ const Popularjobs = () => {
             data={data}
             renderItem={({item}) => (
               <PopularJobCard 
+              selectedJob={selectedJob}
               item={item}
               handleCardPress={handleCardPress}
               />
